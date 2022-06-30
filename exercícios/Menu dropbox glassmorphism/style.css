@@ -1,0 +1,74 @@
+:root {
+    --cor-menu: rgb(20, 8, 41);
+    --cor-fonte: rgb(213, 157, 255);
+    --cor-fonte-hover: rgb(242, 247, 255);
+    --cor-button-hover: rgba(158, 2, 255, 0.179);
+}
+
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    background-image: url(digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-08869d3810a06c28a09cf1be487204ea.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+a:hover {
+    color: var(--cor-fonte-hover);
+}
+a:hover {
+    width: 100%;
+    transition: 0.3s;
+}
+nav {
+    background-color: var(--cor-menu);
+    text-align: center;
+    
+}
+nav ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+nav ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 20px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--cor-fonte);
+}
+.sub-menu-1 {
+    display: none;
+}
+nav ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 15px;
+    background-color: rgba(5, 0, 19, 0.168);
+    margin-top: 15px;
+    margin-left: -38;
+}
+nav ul li:hover .sub-menu-1 ul {
+    display: block;
+}
+nav ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+    
+
+

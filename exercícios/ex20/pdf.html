@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando um link</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: lighter;
+        }
+        a:visited {
+            color: blue;
+        }
+        a:hover {
+            color: blueviolet;
+        }
+        a:active {
+            color: chartreuse;
+        }
+        .especial:hover {
+            color: white;
+            background-color: black;
+            font-weight: lighter;
+        }
+        .especial::before {
+            content: '>>';
+            font-weight: lighter;
+
+        }
+        .especial::after {
+            content: '<<';
+            font-weight: lighter;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <p>
+        Para assistir vídeos engraçados acesse
+        <a href="https://www.youtube.com/" target="black" rel="external">
+            youtube
+        </a>
+    </p>
+    <p>
+        Para pesquisar enciclopédias acesse
+        <a href="https://www.google.com/" target="black" rel="external">
+            google
+        </a>
+    </p>
+    <p>
+        Para encontrar jogos divertidos acesse
+        <a href="https://www.clickjogos.com.br/" class="especial" target="black" rel="external">
+            clickjogos
+        </a>
+    </p>
+    
+</body>
+</html>

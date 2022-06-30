@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;           
+            background-image: linear-gradient(to bottom, rgb(154, 0, 0), rgb(68, 2, 2));
+            margin: 0px;
+        }
+        header {
+            border-radius: 10px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: lightgrey;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+        main {
+            border-radius: 10px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: rgba(128, 128, 128, 0.124);
+            
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.338);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        article > aside {
+            background-color: rgb(255, 199, 199);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        #Assuntos {
+            font-weight: bold;
+            padding: 10px;
+            color: grey;
+        }
+        #Assuntos:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quae placeat eveniet nesciunt illo nobis assumenda, molestias sunt eligendi nihil facilis. Rem repellendus aperiam nesciunt sapiente! Cupiditate deserunt doloribus voluptatem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, placeat inventore? Veniam perspiciatis expedita veritatis laborum reiciendis eum quidem odit libero ratione temporibus, quaerat modi omnis esse atque distinctio assumenda!
+            </p>
+        </aside>
+        <section id="Assuntos">
+                <p>Esporte Notícias Tecnologia</p>
+        </section>
+        <section id="Notícias">
+            <article>                
+                <h2>Notícias sobre Viagens</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est odit officia, sapiente, similique numquam sunt temporibus voluptatibus repellendus omnis quam mollitia dolorem. Atque magni molestias, consectetur debitis illo omnis. Quaerat!
+                </p>
+                <aside>
+                    <p>Artigo escrito por José Mclee</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Géser Alan Inc.
+    </footer>
+</body>
+</html>

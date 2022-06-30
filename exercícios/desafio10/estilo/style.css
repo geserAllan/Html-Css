@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+:root {
+    --cor0:#A3F665;
+    --cor1:#74D47B;
+    --cor2:#ececec;
+    --cor3:#ffffff;
+    --cor4:#01311e;
+    --cor5:#00ca83;
+    --cor6:#d6f7c6;
+
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-footer: 'Poppins', sans-serif;
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a.externo::after {
+    content:'\00A0\1F517';
+}
+body {
+    background-color: var(--cor3);
+    font-family: var(--fonte-padrao);
+   
+ }
+ 
+header {
+    background-color: var(--cor5);
+    height: 300px;
+    
+    color: rgb(255, 255, 255);
+    font-family: var(--fonte-destaque);
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 30px;
+}
+header > h1 {
+    color: var(--cor3);
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.286);
+}
+header > p {
+    font-family:var(--fonte-footer) ;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 0.5em;
+    padding: 2px;
+     
+}
+a {
+    transition-duration: 0.2s;
+}
+nav {
+    background-color: #000000;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.113);
+    text-align:center;
+    font-size: 0.8em;
+   
+    
+}
+.sub-menu1 {
+    display: none;
+}
+
+nav ul li:hover .sub-menu1 {
+    display: block;
+    position: absolute;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: -35px;
+    
+
+
+}
+.sub-menu2 {
+    display: none;
+}
+.hover-sub:hover .sub-menu2 {
+    display: block;
+    position: absolute;
+    background-color: #000000;
+    margin-top: -40px;
+    margin-left: 140px;
+    border-radius: 20px;
+
+}
+nav ul li:hover .sub-menu1 ul {
+    display: block;
+}
+nav ul li:hover .sub-menu1 ul li {
+    width: 150px;
+    text-align: center;
+}
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    text-align: justify;
+}
+nav ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 10px;
+}
+nav ul li a {
+    color: var(--cor5);
+    
+    margin-left: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+    
+}
+nav a:hover {
+    color: var(--cor6);
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+   
+}
+main img {
+    width: 100%;
+}
+main img.small {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+main h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    font-weight: normal;
+}
+main h2 {
+    font-family: var(--fonte-destaque);
+    font-size: 1.3em;
+    font-weight: normal;
+    background-color: var(--cor5);
+    text-indent: 10px;
+    border-radius: 10px;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+    color: #555d80;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor4)
+}
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor5);
+}
+div.video {
+    position: relative;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor));
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside {
+    background-image:linear-gradient(to bottom, var(--cor6), transparent);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 40px rgba(0, 0, 0, 0.097);
+}
+aside > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+aside > h3 {
+    padding: 10px;
+    background-color: var(--cor5);
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px 0px -10px;
+}
+footer {
+    font-family: var(--fonte-footer);
+    background-color: var(--cor5);
+    padding: 50px 0;
+    color: var(--cor1);
+    font-size: 0.8em;
+    text-align: center;
+    
+}
+footer a {
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
+.container-footer {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul {
+    list-style: none;
+}
+.footer-col ul li {
+    margin: 26px 0;
+
+}
+.footer-col ul li a {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.2s ease;
+}
+.footer-col ul li a:hover {
+    color: var(--cor4);
+    
+    text-decoration: underline;
+}
+.footer-col .medias-sociais {
+    margin-top: 30px;
+}
+.footer-col .medias-sociais a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.2s ease;
+
+}
+.footer-col .medias-sociais a:hover {
+    color: var(--cor5);
+    background: white;
+}
+.footer-col .form-sub input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+    background-color: var(--cor5);
+}
+.footer-col .form-sub input::placeholder {
+    color: white;
+}
+.footer-col .form-sub button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    color: var(--cor5);
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: var(--cor3);
+}
+.footer-col .form-sub button:hover {
+    color: white;
+    background-color: var(--cor4);
+    transition: all 0.2s ease;
+}
+/* responsivo*/
+@media (max-width: 800px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 600px) {
+    .footer-col {
+        width: 100%;
+        
+    }
+}
