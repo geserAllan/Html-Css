@@ -20,6 +20,11 @@ header {
 }
 section {
     padding: 20px;
+    background-image:url(../imagens/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+
 }
 
 
@@ -49,4 +54,14 @@ input[type="submit"] {
     color: white;
     background-color:#48C5CE ;
     font-weight: bold;
+}
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-image: url(../imagens/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    
 }
