@@ -3,32 +3,31 @@
     padding: 0;
 }
 
-body {
+body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
 }
-.container {
+
+.container{
     max-width: 1000px;
     margin: auto;
 }
-header {
+
+header{
     background-color: #48C5CE;
     text-align: center;
     color: white;
     padding: 10px;
-
 }
-section {
+section{
     padding: 20px;
     background-image:url(../imagens/people.jpg);
     background-size: cover;
     overflow: hidden;
-    
 
 }
 
-
-.title {
+.title{
     font-size: 26px;
 }
 .formContainer {
@@ -37,51 +36,65 @@ section {
     padding: 20px;
     float: right;
 }
-h2 {
+
+h2{
     font-size: 16px;
 }
-.mb {
+
+.mb{
     margin-bottom: 15px;
 }
-input, select {
+
+input, select{
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
     border:none;
     margin-bottom: 10px;
 }
-input[type="submit"] {
+
+input[type="submit"]{
     color: white;
     background-color:#48C5CE ;
     font-weight: bold;
 }
-select {
+
+select{
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
 
     background-image: url(../imagens/arrow.jpg);
     background-repeat: no-repeat;
-    background-position-x: calc(100% - 10px) center;
+    background-position: calc(100% - 10px) center;
     
 }
-footer {
+
+footer{
 
     background-color: #0f0f0f;
+    padding: 40px;
+    text-align: center;
 
 }
 
 
-.picture {
+.picture{
     width: 160px;
 }
 
-.description {
+.description{
     color: white;
+    text-align: left;
     display: inline-block;
     max-width: 40%;
     margin-left: 40px;
 }
-.description p, .description h3 {
+
+.description p, .description h3{
     margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 24px;
 }
