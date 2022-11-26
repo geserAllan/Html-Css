@@ -23,6 +23,21 @@ li{
     margin: 20px;
 }
 
+a:hover{
+    color: rgb(248, 203, 0);
+    transition: 0.3s all;
+}
+
+.inscreva-se-btn{
+    border: 2px solid rgb(248, 203, 0);
+    padding: 10px;
+    border-radius: 15px;
+}
+.inscreva-se-btn:hover{
+    background-color: rgb(248, 203, 0);
+    color: white;
+}
+
 h1{
     font-weight: 200;
 }
@@ -34,20 +49,27 @@ main{
 }
 
 aside{
-    max-width: 400px;
+    max-width: 500px;
 }
 
 img{
-    max-width: 800px;
+    margin-left: 0;
+    max-width: 720px;
 }
 
 
 h2{
     margin: 0;
     font-size: 56px;
-    line-height: 45px;
+    line-height: 47px;
  }
 
 span{
-    color: rgb(248, 215, 0);
+    color: rgb(248, 203, 0);
  }
+
+ p{
+    line-height: 20px;
+    max-width: 500px;
+ }
+
