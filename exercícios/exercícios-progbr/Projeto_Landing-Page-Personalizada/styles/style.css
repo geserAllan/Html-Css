@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+    color: rgb(38, 68, 72);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+aside{
+    max-width: 400px;
+}
+
+img{
+    max-width: 800px;
+}
+
+
+h2{
+    margin: 0;
+    font-size: 56px;
+    line-height: 45px;
+ }
+
+span{
+    color: rgb(248, 215, 0);
+ }
