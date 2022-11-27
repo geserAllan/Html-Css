@@ -45,6 +45,8 @@ a:hover{
 
 h1{
     font-weight: 200;
+    color: rgb(38, 68, 72);
+    
 }
 
 main{
@@ -68,6 +70,7 @@ h2{
     margin: 0;
     font-size: 56px;
     line-height: 47px;
+
  }
 
 span{
