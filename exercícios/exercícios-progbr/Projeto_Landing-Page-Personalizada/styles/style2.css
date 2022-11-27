@@ -9,6 +9,7 @@ body{
 .container{
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
     
     
     
@@ -22,7 +23,7 @@ img{
 
 p{
     font-size: 17px;
-    max-width: 70%;
+    max-width: 60%;
     line-height: 19px;
     
     
