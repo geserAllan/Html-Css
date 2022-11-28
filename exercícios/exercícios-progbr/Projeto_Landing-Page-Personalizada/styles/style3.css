@@ -51,9 +51,27 @@ h1{
 }
 
 p{
-    max-width: 800px;
+    max-width: 80%;
     text-align: justify;
     font-style: italic;
     line-height: 23px;
+    margin-left: 30px
 }
+
+p.ceo{
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+img{
+    max-width: 300px;
+    border-radius: 30px;
+    
+}
+
 

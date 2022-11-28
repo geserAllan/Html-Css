@@ -68,8 +68,11 @@ p{
     font-size: 17px;
     max-width: 60%;
     line-height: 19px;
-    
-    
+      
+}
+
+p.negrito{
+    font-weight: bold;
 }
 
 .italic{
