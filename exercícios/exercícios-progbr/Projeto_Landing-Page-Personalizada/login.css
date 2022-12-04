@@ -49,11 +49,11 @@ main{
     color: rgb(38, 68, 72);
 }
 
-.signup-box{
+.login-box{
     width: 360px;
-    height: 620px;
+    height: 300px;
     margin: auto;
-    margin-bottom: 30px;
+    
     background-color: rgb(192, 211, 213);
     border-radius: 20px;
 }
@@ -116,4 +116,3 @@ p{
 p a{
     color: black;
 }
-
