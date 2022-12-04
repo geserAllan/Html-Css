@@ -112,7 +112,7 @@ input[type="button"]:hover{
 p{
     text-align: center;
     padding-top: 20px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .para-2{
@@ -122,9 +122,9 @@ p{
 }
 
 .para-2 a{
-    color: black;
+    color: rgb(38, 68, 72);
 }
 
 p a{
-    color: black;
+    color: rgb(38, 68, 72);
 }
