@@ -58,6 +58,12 @@ main{
     border-radius: 20px;
 }
 
+h1{
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(38, 68, 72);
+}
+
 h2{
     text-align: center;
     padding-top: 15px;
