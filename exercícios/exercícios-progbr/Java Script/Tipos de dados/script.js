@@ -4,5 +4,10 @@
 //Number
 //String
 
-var a;
+var a = 1;
+
+var b = "Texto";
+
+console.log(a);
+console.log(b);
 
