@@ -3,3 +3,6 @@
 //Undefined
 //Number
 //String
+
+var a;
+
