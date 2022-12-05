@@ -1,4 +1,5 @@
-//Boolean
+//Boolean => True ou False (Usado para operações lógicas)
+
 //Null
 //Undefined
 //Number
