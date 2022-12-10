@@ -17,7 +17,7 @@ var menor30 = idade <= 30;
 
 var entre = maior20 && menor30;
 
-console.log('idade', Idade);
+console.log('idade', idade);
 console.log('maior que 20', maior20);
 console.log('menor que 30', menor30);
 console.log('entre 20 e 30', entre);
