@@ -2,11 +2,15 @@
 
 
 
-function average(){
-    score1 = 5;
-    score2 = 8;
-    average = (score1 + score2) / 2;
-    console.log(average);
-}
+// function average(){
+//    var score1 = 9;
+//    var score2 = 8;
+//    var average = (score1 + score2) / 2;
+//    console.log(average);
+// }
 
-average();
+// average();
+
+
+function average();
+    var
