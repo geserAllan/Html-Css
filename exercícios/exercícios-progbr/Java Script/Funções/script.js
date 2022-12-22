@@ -31,6 +31,8 @@
 
 
 
+
+
 // function average(s1, s2){
 //     var score1 = s1;
 //     var score2 = s2;
@@ -46,7 +48,32 @@
 
 
 
-var average = function(s1, s2){
+
+
+
+
+
+
+
+
+
+// var average = function(s1, s2){
+
+//     return (s1 + s2) / 2;
+
+// }
+// console.log(average(6, 7));
+
+
+
+
+
+
+
+
+
+
+var average = (s1, s2) => {
 
     return (s1 + s2) / 2;
 
