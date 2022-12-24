@@ -58,8 +58,12 @@ var aluno = {
 }
 
 aluno.matrícula = 246810; /*inserção de nova propriedade*/
-
 aluno ["sobrenome"] = "Oliveira";  /*outra forma de inserção de propriedade*/
+
+
+ /* Com essa funcionalidade acaba sendo possível criar uma varável que torna-se possível atribuir uma propriedade*/
+var novaPropriedade = "endereço";
+aluno[novaPropriedade] = "Rui Arantes";
 
 
 console.log(aluno);
