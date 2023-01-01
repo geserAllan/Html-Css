@@ -6,11 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <script>
+    <!-- <script>
         function h1clique(){
+            console.log("executando a função")
+        }
+    </script> -->
+
+    
+
+
+
+
+    <!-- <script>
+
+        function changeh1(){
+
+            let input = document.getElementById("texto");
+            let h1 = document.getElementsByTagName("h1")[0];
+            h1.innerText = input.value;
+            
             
         }
+
+    </script> -->
+
+
+
+
+
+
+
+    <script>
+
+        function changeh1(){
+
+            let input = document.getElementById("texto");
+            let h1 = document.getElementsByTagName("h1")[0];
+            h1.innerText = input.value;
+            
+            
+        }
+
     </script>
+
+
+
 
 
 </head>
@@ -18,8 +58,31 @@
 
 <body>
 
+    <!-- <h1 onclick="console.log('H1 foi clicado')">Clique aqui</h1> -->
+    
 
-    <h1 onclick="h1clique('H1 foi clicado')">Clique aqui</h1>
+
+    
+    <!-- <h1 onclick= "console.log(this.style.color ='red')">Clique aqui</h1> -->
+    
+
+
+    
+    <!-- <h1>Clique em mim </h1>
+    <input id="texto" type="text" onchange="changeh1()"> -->
+
+
+
+
+
+    <h1>Clique em mim </h1>
+
+    <input id="texto" type="text" onchange="changeh1()">
+
+
+
+
+
     
 </body>
 </html>
