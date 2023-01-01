@@ -38,11 +38,11 @@
 
     <script>
 
-        function changeh1(){
+        function changeh1(i){
 
             let input = document.getElementById("texto");
             let h1 = document.getElementsByTagName("h1")[0];
-            h1.innerText = input.value;
+            h1.innerText = i.value;
             
             
         }
@@ -75,9 +75,18 @@
 
 
 
+    <!-- <h1>Clique em mim </h1>
+
+    <input id="texto" type="text" onchange="changeh1(this)"> -->
+
+
+
+
+
+
     <h1>Clique em mim </h1>
 
-    <input id="texto" type="text" onchange="changeh1()">
+    <input id="texto" type="text" oninput="changeh1(this)">
 
 
 
