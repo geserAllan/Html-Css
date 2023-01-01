@@ -47,7 +47,27 @@
             
         }
 
+        function hideh1(){
+            let h1 = document.getElementsByTagName("h1")[0];
+            h1.style.display = "none";
+
+        }
+
+        
+
     </script>
+
+    <style>
+        div{
+            display: inline;
+            color: aliceblue;
+            padding: 20px;
+            background-color: cadetblue;
+            font-size: 2rem;
+            border-radius: 10px;
+        }
+
+    </style>
 
 
 
@@ -62,9 +82,15 @@
     
 
 
+
+
+
     
     <!-- <h1 onclick= "console.log(this.style.color ='red')">Clique aqui</h1> -->
     
+
+
+
 
 
     
@@ -75,8 +101,9 @@
 
 
 
-    <!-- <h1>Clique em mim </h1>
 
+
+    <!-- <h1>Clique em mim </h1>
     <input id="texto" type="text" onchange="changeh1(this)"> -->
 
 
@@ -84,10 +111,21 @@
 
 
 
-    <h1>Clique em mim </h1>
 
-    <input id="texto" type="text" oninput="changeh1(this)">
 
+
+
+
+
+    <!-- <h1>Clique em mim </h1>
+
+    <input id="texto" type="text" oninput="changeh1(this)"> -->
+
+
+    <h1>Clique aqui</h1>
+
+
+    <div onclick="hideh1()">Botão 1</div>
 
 
 
