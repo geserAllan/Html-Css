@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
     
+    <script>
+        function onOver(elemento){
+            elemento.style.backgroundColor = "red";
+        }
+        function onOut(elemento){
+            elemento.style.backgroundColor = "aquamarine"
+        }
+    </script>
+
+    <style>
+        img{
+            width: 200px;
+            margin-bottom: 25px;
+        }
+        div{
+            display: inline;
+            background-color: aquamarine;
+            color: aliceblue;
+            padding: 10px;
+            font-size: 2rem;
+        }
+
+    </style>
+</head>
+<body onload="console.log('Página completamente carregada')">
+    <img src="https://i0.wp.com/gamelogia.com.br/wp-content/uploads/2016/11/gamer.jpg?fit=1280%2C721&ssl=1" alt="">
+    <br>
+    <div onmouseover="onOver(this)"
+         onmouseout="onOut(this)">Click</div>
 </body>
 </html>
