@@ -19,10 +19,22 @@
                     "Hobbyes": ["Correr", "Nadar","Ler"] 
         }
 
-        //convertendo objeto para json
+        //convertendo objeto em json
 
         const jsonFile = JSON.stringify(obj);
         console.log(jsonFile)
+        console.log(typeof jsonFile)
+
+
+        //convertendo json em objeto
+        const objData = JSON.parse(jsonFile)
+        console.log(objData)
+        console.log(typeof objData)  
     </script>
 </body>
 </html>
+
+
+
+
+
