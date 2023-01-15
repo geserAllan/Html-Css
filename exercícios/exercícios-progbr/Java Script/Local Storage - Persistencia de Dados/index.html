@@ -53,7 +53,7 @@
     
         // let a = {
         //             "nome": "Alan", 
-        //             "n1": 8.9}   >>> Armazenando números em objetos permite ao parseá-los sua apresentação correta em "azul" no console.
+        //             "n1": 8.9}   >>> Armazenando números em objetos para posteriormente desparsea-los.
         // localStorage.setItem("aluno", JSON.stringify(a));
         
         // let a = localStorage.getItem("aluno");
@@ -69,8 +69,9 @@
         //             "n1": 8.9}
         // localStorage.setItem("aluno", JSON.stringify(a));
         
-        let a = localStorage.getItem("aluno");
-        console.log(JSON.parse(a))
+        
+        let a = localStorage.getItem("aluno"); //Recebendo número armazenado e desparseando-os corretamente
+        console.log(JSON.parse(a));
 
 
         
