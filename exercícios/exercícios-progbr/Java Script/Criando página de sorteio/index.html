@@ -7,13 +7,33 @@
     <title>Document</title>
 
     <script>
+        // function sortear(){
+
+        //     let número_pessoas = 100;
+        //     let número_sorteado = Math.round(Math.random() * número_pessoas)
+
+        //     document.getElementById("display").innerHTML = número_sorteado
+        // }
+
+
+
+
+            let pessoas = ["Alan","Bruna","Gustavo","Joel","Marta","Fernando","Samara","Márcia","Júnior"]
+
         function sortear(){
 
-            let número_pessoas = 100;
-            let número_sorteado = Math.round(Math.random() * número_pessoas)
+            
+            let número_pessoas = pessoas.length;
+            let número_sorteado = Math.floor(Math.random() * número_pessoas)
 
-            document.getElementById("display").innerHTML = número_sorteado
+            document.getElementById("display").innerHTML = pessoas[número_sorteado]
         }
+
+
+
+
+
+
 
     </script>
 
