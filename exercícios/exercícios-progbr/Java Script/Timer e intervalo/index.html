@@ -1,3 +1,122 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> -->
+
+    <!-- <script>
+
+
+        function mudarCor(){
+            let h = document.getElementsByTagName("h1")[0]
+            h.style.color = "blue";
+        }
+
+        function mudarTexto(){
+            let h = document.getElementsByTagName("h1")[0]
+            h.innerHTML = "Novo título";
+
+            setTimeout(mudarCor,1000)
+        }
+
+
+
+
+
+
+        var número = 0
+
+        function atualizarTexto(){
+
+
+            let h = document.getElementsByTagName("h1")[0]
+            h.innerHTML += " "+ número;
+            número++
+        }
+
+
+        function mudarTexto(){
+
+            setInterval( atualizarTexto,1000);
+
+        }
+
+    </script> -->
+ <!-- </head>
+ <body>
+    
+     <h1>Título</h1>
+     <input onclick="mudarTexto()" type="submit" value="">
+
+ </body>
+ </html>  -->
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        
+        var número = 0;
+        var interval;
+
+        function atualizarTexto(){
+
+
+            let h = document.getElementsByTagName("h1")[0]
+            h.innerHTML += " "+ número;
+            número++;
+        }
+
+
+        function iniciar(){
+
+            interval = setInterval( atualizarTexto,1000);
+
+        }
+
+        function parar(){
+
+            clearInterval(interval);
+            
+
+        }
+
+    </script>
+</head>
+<body>
+    
+    <h1>Título</h1>
+    <input onclick="iniciar()" type="submit" value="Iniciar">
+    <input onclick="parar()" type="submit" value="Parar">
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,23 +127,29 @@
 
     <script>
 
+        
+        var número = 0;
+        var timer;
 
-        // function mudarCor(){
-        //     let h = document.getElementsByTagName("h1")[0]
-        //     h.style.color = "blue";
-        // }
-
-        // function mudarTexto(){
-        //     let h = document.getElementsByTagName("h1")[0]
-        //     h.innerHTML = "Novo título";
-
-        //     setTimeout(mudarCor,1000)
-        // }
+        function atualizarTexto(){
 
 
+            let h = document.getElementsByTagName("h1")[0]
+            h.innerHTML += " "+ número;
+            número++;
+        }
 
 
-        function mudarTexto(){
+        function iniciar(){
+
+            timer = setTimeout( atualizarTexto,1000);
+
+        }
+
+        function parar(){
+
+            clearTimeout(interval);
+           
 
         }
 
@@ -32,8 +157,9 @@
 </head>
 <body>
     
-    <!-- <h1>Título</h1> -->
-    <input onclick="mudarTexto()" type="submit" value="Mudar">
+    <h1>Título</h1>
+    <input onclick="iniciar()" type="submit" value="Iniciar">
+    <input onclick="parar()" type="submit" value="Parar">
 
 </body>
 </html>
