@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript">
+        function estrela(){
+
+        var linha,coluna,input,til;
+         
+        input = document.getElementById('p').value;  //3
+       
+        
+        for (linha=0;linha<input;linha++)        //0,1,2,3
+        {
+            for (til=0;til<input-linha-1;til++)    //0,--,-
+            {
+                document.write("~");     //~~,~
+            }
+            for (coluna=0;coluna<=linha;coluna++)   //0,1,0,1,2,0,1,2,3
+            {
+                document.write("*");    //*,**,***
+            }
+            document.write('<br/>');
+        }
+    }
+
+    </script>
+</head>
+<body>
+    Insira um número = <input type="text" id="p">
+    <button onclick="estrela()">Mostrar padrão</button>
+
+    
+</body>
+</html>
