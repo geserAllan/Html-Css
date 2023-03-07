@@ -4,4 +4,9 @@
 
 //Crianças valem por 0,5
 
+let inputAdultos = document.getElementById("adultos");
+let inputCrianças = document.getElementById("criancas");
+let inputDuração = document.getElementById("duracao");
+
+console.log(inputAdultos.value, inputCrianças.value, inputDuração.value );
 
