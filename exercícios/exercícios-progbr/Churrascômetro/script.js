@@ -21,8 +21,8 @@ console.log("Calculando...");
     let qtdTotalBebidas = bebidasPP(duracao) * adultos + (bebidasPP(duracao) / 2 * criancas);
     let qtdTotalCerveja = cervejaPP(duracao) * adultos;
 
-    resultado.innerHTML = `<p>${qtdTotalCarne / 1000} Kg de Carne </p>`
-    resultado.innerHTML += `<p>${qtdTotalBebidas / 2000} Lts de Bebidas </p>`
+    resultado.innerHTML = `<p>${Math.ceil(qtdTotalCarne / 1000)} Kg de Carne </p>`  //Math.ceil ajuda arredondar o resultado para o número não ficar quebrado.
+    resultado.innerHTML += `<p>${Math.ceil(qtdTotalBebidas / 2000)} Pet's 2 litros de Bebidas </p>`
     resultado.innerHTML += `<p>${Math.ceil(qtdTotalCerveja / 355)} latas de Cerveja </p>`
     
 }
