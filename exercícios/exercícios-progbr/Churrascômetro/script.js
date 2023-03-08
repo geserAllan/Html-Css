@@ -11,8 +11,8 @@ let inputDuracao = document.getElementById("duracao");
 let resultado = document.getElementById("resultado");
 
 function calcular(){
-console.log("Calculando...");
 
+    
     let adultos = inputAdultos.value;
     let criancas = inputCriancas.value;
     let duracao = inputDuracao.value;
