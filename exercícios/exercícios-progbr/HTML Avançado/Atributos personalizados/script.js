@@ -33,7 +33,11 @@
 
 let lista = document.getElementById("lista");
 
-let num = parseInt(lista.getAttribute("num"));
+
+
+let num = parseInt(lista.dataset.number);
+
+
 
 let conteudo = ""
 
