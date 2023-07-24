@@ -37,21 +37,22 @@
 <body>
     <div class="container">
 
-        <video class="video" src="./Controles - Parte 1/ícones controle/Sony 4K Demo Another Worl[1].mp4">
+        <video id="video1" class="video" src="./Controles - Parte 1/ícones controle/Sony 4K Demo Another Worl[1].mp4">
 
         </video>
 
         <div class="controle">
-            <img class="btn" src="./Controles - Parte 1/ícones controle/voltar 15.png" alt="">
-            <img class="btn"  src="./Controles - Parte 1/ícones controle/15-seconds-icon.png" alt="">
-            <img class="btn"   src="./Controles - Parte 1/ícones controle/aumentar.png" alt="">
-            <img class="btn"  src="./Controles - Parte 1/ícones controle/menos.png" alt="">
-            <img class="btn"  src="./Controles - Parte 1/ícones controle/pause.png" alt="">
-            <img class="btn"  src="./Controles - Parte 1/ícones controle/play.png" alt="">
-            <img class="btn"  src="./Controles - Parte 1/ícones controle/stop.png" alt="">
+            <img class="btn" onclick="retroceder()" src="./Controles - Parte 1/ícones controle/retroceder.png" alt="">
+            <img class="btn" onclick="avancar()"  src="./Controles - Parte 1/ícones controle/avancar.png" alt="">
+            <img class="btn" onclick="aumentar_vel()"   src="./Controles - Parte 1/ícones controle/aumentar.png" alt="">
+            <img class="btn" onclick="diminuir_vel()"  src="./Controles - Parte 1/ícones controle/menos.png" alt="">
+            <img class="btn" onclick="pausar()"  src="./Controles - Parte 1/ícones controle/pause.png" alt="">
+            <img class="btn" onclick="iniciar()"  src="./Controles - Parte 1/ícones controle/play.png" alt="">
+            
         </div>
     </div>
 
     </video>
+    <script src="./script.js"></script>
 </body>
 </html>
